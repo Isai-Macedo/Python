@@ -26,5 +26,4 @@ def lenguaje(nombre, **kwargs):
         contador += 1
         print(f'Tu {contador} lenguaje favorito es: {kwargs[i]}')
 
-
 lenguaje("Isai", lenguaje1 = "JavaScript", lenguaje2 = "Python")
